@@ -42,7 +42,7 @@
 
                 {{ with .Site.Params.contact.form.phone }}
                 <div class="form-group">
-                  <input class="form-control" id="phone" required="required" type="number" name="phone" placeholder="{{ with .text }}{{ . | markdownify }}{{ end }}" data-validation-error-msg="{{ with .warning }}{{ . | markdownify }}{{ end }}"></textarea>
+                  <input class="form-control" id="phone" required="false" type="number" name="phone" placeholder="{{ with .text }}{{ . | markdownify }}{{ end }}" data-validation-error-msg="{{ with .warning }}{{ . | markdownify }}{{ end }}"></textarea>
                   <p class="help-block text-danger"></p>
                 </div>
                 {{ end }}

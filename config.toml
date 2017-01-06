@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://czrsolutions.github.io/"
+baseurl = "//czrsolutions.github.io/"
 languageCode = "pt-br"
 title = "CZR Solutions"
 theme = "hugo-agency-theme"
@@ -290,8 +290,8 @@ subtitle = "Trabalhamos focados em construir seu produto, entendendo o vocabulá
     email = "contato@czrsolutions.com"
 
     # Success and error message overwrite for async contact form
-    #thanks = "Thank you for awesomely contacting us."
-    #error = "Message could not be send. Please contact us at mail@example.com instead."
+    thanks = "Agradecemos pelo seu contato. "
+    error = "A mensagem não foi enviada. Por favor, entre em contato pelo e-mail contato@czrsolutions.com."
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
@@ -303,7 +303,7 @@ subtitle = "Trabalhamos focados em construir seu produto, entendendo o vocabulá
       warning = "Por favor, insira seu e-mail."
 
     [params.contact.form.phone]
-      text = "Seu telefone *"
+      text = "Seu telefone"
       warning = "Por favor, insira seu telefone."
 
     [params.contact.form.message]
