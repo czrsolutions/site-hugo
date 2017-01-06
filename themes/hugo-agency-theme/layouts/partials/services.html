@@ -1,0 +1,63 @@
+{{ "<!-- Services -->" | safeHTML }}
+<section id="sobreNos">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{ with .Site.Params.sobreNos.title }}{{ . }}{{ end }}</h2>
+        <h3 class="section-subheading text-muted">{{ with .Site.Params.sobreNos.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+        <p class="text-muted">{{ with .Site.Params.sobreNos.description }}{{ . | markdownify }}{{ end }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="services" style="background-color: #f2f2f2;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{ with .Site.Params.services.title }}{{ . }}{{ end }}</h2>
+        <h3 class="section-subheading text-muted">{{ with .Site.Params.services.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+      </div>
+    </div>
+    {{ range .Site.Params.services.row }}
+      <div class="row text-center">
+        {{ range .list }}
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa {{ .icon }} fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">{{ if .url }}<a href="{{ .url | absURL }}">{{ .title | markdownify }}</a>{{ else }}{{ .title | markdownify }}{{ end }}</h4>
+            <p class="text-muted">{{ .description | markdownify }}</p>
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+</section>
+
+<section id="nossasPraticas">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{ with .Site.Params.nossasPraticas.title }}{{ . }}{{ end }}</h2>
+        <h3 class="section-subheading text-muted">{{ with .Site.Params.nossasPraticas.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+      </div>
+    </div>
+    {{ range .Site.Params.nossasPraticas.row }}
+      <div class="row text-center">
+        {{ range .list }}
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa {{ .icon }} fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">{{ if .url }}<a href="{{ .url | absURL }}">{{ .title | markdownify }}</a>{{ else }}{{ .title | markdownify }}{{ end }}</h4>
+            <p class="text-muted">{{ .description | markdownify }}</p>
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+</section>
