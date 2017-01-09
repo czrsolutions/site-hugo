@@ -85,7 +85,7 @@ googleAnalytics = "UA-89954522-1"
       enable = true
       title = "Sobre a CZR"
       subtitle = "Somos engenheiros, focados e com uma mente empreendedora. Acreditamos que o software deve gerar valor para o negócio e atender as necessidades de seus clientes."
-      description = "Estamos situados em Curitiba/PR, contamos com profissionais jovens, inovadores e com mentes empreendedoras. Nos propomos a entregar ótimas soluções através de serviços de qualidade, com foco em sua necessidade e com atenção na eficiência na utilização dos seus recursos. Nossos serviços são divididos em duas soluções: CZR UP e CZR GO. A primeira é focada no alinhamento entre o seu produto e as necessecidades do mercado, e a outra, na arquitetura e construção do seu produto. Se interessou? Leia abaixo um pouco mais sobre a nossa proposta."
+      description = "Estamos situados em Curitiba/PR, contamos com profissionais jovens, inovadores e com mentes empreendedoras. Nos propomos a entregar ótimas soluções através de serviços de qualidade, com foco em sua necessidade e com atenção na eficiência na utilização dos seus recursos. Nossos serviços são divididos em duas soluções: CZR UP e CZR GO. A primeira é focada no alinhamento entre o seu produto e as necessidades do mercado, e a outra, na arquitetura e construção do seu produto. Se interessou? Leia abaixo um pouco mais sobre a nossa proposta."
 
   # Services section - CZR UP
   [params.services]
