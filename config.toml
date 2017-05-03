@@ -4,8 +4,11 @@ languageCode = "pt-br"
 title = "CZR Solutions"
 theme = "hugo-agency-theme"
 
+defaultContentLanguage = "pt-br"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-89954522-1"
+
+paginate = 10
 
 [params]
   # You can use Markdown syntax for urls [text](//url.to/source) or
@@ -24,6 +27,8 @@ googleAnalytics = "UA-89954522-1"
   custom_css = []
   custom_js  = []
   favicon    = "favicon.ico"
+
+  date_format = "02/01/2006"
 
   # Possibility to disable external/additional fonts
   # Exception: Fontawesome
@@ -61,16 +66,24 @@ googleAnalytics = "UA-89954522-1"
     # below and replace the values with your own.
 
     # prepended links
-    #[[menu.prepend]]
-    #  url = "http://gohugo.io"
-    #  name = "Hugo"
-    #  weight = 10
-
-    # postpended links
+    # [[menu.prepend]]
+    #   url = "http://gohugo.io"
+    #   name = "Blog"
+    #   weight = 2
+    #
+    # # postpended links
     [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "External link"
-      weight = 10
+      url = "/blog/"
+      name = "Blog"
+      weight = 2
+
+     [Permalinks]
+     blog = "/blog/:year/:month/:day/:filename"
+
+    [params.widgets]
+        categories = true
+        tags = true
+        search = true
 
 
   # Hero section
