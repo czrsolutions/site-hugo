@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "czrsolutions.com"
+baseurl = "czrsolutions.github.io"
 languageCode = "pt-br"
 title = "CZR Solutions"
 theme = "hugo-agency-theme"
