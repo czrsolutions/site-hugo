@@ -1695,7 +1695,6 @@ body {
 
 .navbar-blog {
     position: relative;
-    min-height: 62px;
     margin-bottom: 0;
     border-bottom: 1px solid transparent;
 }

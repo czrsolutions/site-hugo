@@ -10,6 +10,10 @@ googleAnalytics = "UA-89954522-1"
 
 paginate = 10
 
+
+# disqus_identifier = "czrsolutions.disqus.com"
+# disqus_url = "czrsolutions.disqus.com"
+
 [params]
   # You can use Markdown syntax for urls [text](//url.to/source) or
   # most longer texts.
