@@ -13,7 +13,7 @@ paginate = 10
 disqusShortname = "czrblog"
 
 # disqus_identifier = "czrsolutions.disqus.com"
-disqus_url = "czrsolutions.com"
+disqus_url = "czrsolutions.github.io"
 
 [params]
   # You can use Markdown syntax for urls [text](//url.to/source) or
