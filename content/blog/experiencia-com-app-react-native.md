@@ -1,6 +1,5 @@
 +++
 title = "A experiência de construir um app usando React Native"
-disqus_title = "app-react-native"
 date = "2017-05-03T13:47:08+02:00"
 author = "Cibele Reis"
 tags = ["react-native"]
