@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "//czrsolutions.github.io/"
+baseurl = "czrsolutions.com"
 languageCode = "pt-br"
 title = "CZR Solutions"
 theme = "hugo-agency-theme"
@@ -13,7 +13,7 @@ paginate = 10
 disqusShortname = "czrblog"
 
 # disqus_identifier = "czrsolutions.disqus.com"
-disqus_url = "http://czrsolutions.com"
+disqus_url = "czrsolutions.com"
 
 [params]
   # You can use Markdown syntax for urls [text](//url.to/source) or
