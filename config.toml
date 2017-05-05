@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "//czrsolutions.github.io/"
+baseurl = "http://czrsolutions.github.io/"
 languageCode = "pt-br"
 title = "CZR Solutions"
 theme = "hugo-agency-theme"
@@ -10,7 +10,7 @@ googleAnalytics = "UA-89954522-1"
 
 paginate = 10
 
-
+DisqusShortname = "czr"
 # disqus_identifier = "czrsolutions.disqus.com"
 # disqus_url = "czrsolutions.disqus.com"
 
