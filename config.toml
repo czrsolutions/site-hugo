@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "czrsolutions.github.io"
+baseurl = "/"
 languageCode = "pt-br"
 title = "CZR Solutions"
 theme = "hugo-agency-theme"
@@ -16,15 +16,6 @@ disqusShortname = "czrblog"
 disqus_url = "czrsolutions.github.io"
 
 [params]
-  # You can use Markdown syntax for urls [text](//url.to/source) or
-  # most longer texts.
-  #
-  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
-  # for more icons. The icons are represented by their corresponding
-  # CSS class.
-
-  # To provide some metadata for search engines feel free to add a few
-  # information about you and your website.
   name = "CZR Solutions"
   description = "Projeto, validação, arquitetura e desenvolvimento de sistemas"
 

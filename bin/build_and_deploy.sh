@@ -10,8 +10,10 @@ DIR=/var/www/czr/site
 
 git rev-parse HEAD > version.txt
 cp -R bin build/bin
-tar -zcvf ./build/$VERSION_HASH.tar.gz --exclude .git --exclude "*.log" . &> /dev/null
-
+cp -R version.txt build/version.txt
+cd build
+tar -zcvf ./$VERSION_HASH.tar.gz --exclude .git --exclude "*.log" . &> /dev/null
+cd ..
 bzip2  --best ./build/$VERSION_HASH.tar.gz
 
 scp  ./build/$VERSION_HASH.tar.gz.bz2 $USER@$HOST:$DIR
