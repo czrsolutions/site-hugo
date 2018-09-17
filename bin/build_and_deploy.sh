@@ -4,9 +4,9 @@ sudo rm -rf build
 hugo -d ./build
 
 VERSION_HASH=$(git rev-parse HEAD)
-USER=ubuntu
-HOST=czr-server.brazilsouth.cloudapp.azure.com
-DIR=/var/www/czr/site
+USER=vinicius
+HOST=cassini.czrsolutions.com
+DIR=/home/deploy/projects/czr-site
 
 git rev-parse HEAD > version.txt
 cp -R bin build/bin
